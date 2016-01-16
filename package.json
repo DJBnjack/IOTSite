@@ -1,0 +1,23 @@
+{
+  "name": "iotsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJBnjack/IOTSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DJBnjack/IOTSite/issues"
+  },
+  "homepage": "https://github.com/DJBnjack/IOTSite#readme",
+  "dependencies" :
+  {
+    "azure-iothub":"^1.0.0-preview.10"
+  }
+}
