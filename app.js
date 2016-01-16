@@ -14,6 +14,8 @@ var server = http.createServer(function (request, response) {
         deviceList.forEach(function (device) {
             response.write(device.deviceId + ': ' + JSON.stringify(device, null, 2));
         });
+        
+        response.end("\n");
     });
 });
 
